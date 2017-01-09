@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    letter-spacing: 0.1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    /* for 480px or less */
+@media screen and (max-width: 480px) {
+    .sidebar {
+        
+    }
+}
+    
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing:  border-box;
+  -moz-box-sizing:  border-box;
+  box-sizing:  border-box;
+  }
+
+
+/*------------ Blog layout -----------*/
+
+body {
+    background-color: #F2F0EA;
+}
+
+.container {
+    position: absolute;
+    height: 22%;
+    width: 75%;
+    background-color: #4EA2AD
+}
+
+a:hover,
+a:focus {
+    
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 55px;
+    text-align: left;
+    font-size: 1.2em;
+    font-family: 'raleway';
+    text-transform: uppercase;
+    font-weight: bolder;    
+}
+
+li a {
+    display: block;
+    padding: 16px 30px;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: #4EA2AD;
+}
+
+a {
+    text-decoration: none;
+    color: #4EA2AD;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+/* LAYOUT CSS */
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;}
+
+#layout {
+    padding: 0;}
+
+.header {
+ 
+}
+
+.sidebar {
+    background: white;
+    color: black;
+}
+
+.brand-title,
+.brand-tagline {
+    margin: 0;
+    font-family: 'raleway';
+    font-size: 1.5em;
+}
+.brand-title {
+    text-transform: none;
+}
+.brand-tagline {
+    font-weight: 300;
+    color: white;
+}
+
+.content-subhead {
+    text-transform: uppercase;
+    color: darkslategray;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+
+
+.content { padding: 0px;
+}
+
+
+@media (min-width: 48em) {
+    
+ .content {
+    
+        margin-left: 25%;
+    } 
+    
+    }
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+
+/*------------------ sidebar- -----------------*/
+
+.marque {
+   margin-top: 30px;
+   margin-bottom: 10px;
+    width: 35%;
+}
+
+.head {
+    padding-top: 4.5em;
+    width: 15%;
+}
+
+
+.Navigation {
+          /* To limit the menu width to the content of the menu: */
+          display: inline-block;
+          /* Or set the width explicitly: */
+          /* width: 10em; */
+      }
+
+.contact {
+    color: white;
+    position: relative;
+    top: 90px;
+}
+
+
+.myname {
+    font-family: 'raleway';
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: black;
+    border-top: thin solid black;
+    padding-top: .7em;
+    width: 90%;}
+
+.leaf {
+    width: 50%;
+    padding-top: 5em;
+    }
+
+
+p {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    color: #F3ECE6;
+}
+
+blockquote {
+    width: 70%;
+    color: #F3ECE6;
+    font-size: 1.5em;
+    text-align: left;
+    border-style: solid;
+    border-left: solid #F3ECE6;
+    border-left-width: medium;
+    padding-left: .4em;
+}
+
+.who {
+    width: 100%;
+    color: #F3ECE6;
+    padding-left: 16em;
+    font-size: .9em;
+    padding-top: 1em;
+}
+
+
+/*-------------BUTTON--------------*/
+
+.button {
+    
+    font-family: 'Raleway';
+    margin-top: 30px;
+    color: #565a5c;
+    background-color: ;
+    border-radius: 2px;
+    padding: 10px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    
+    font-family: 'Raleway';
+    border-radius: 2px;
+    color: white;
+}
+
+
+
+/*----------------------MAIN --------*/
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+.nametop {
+    font-family: 'raleway';
+    font-size: 10px;
+    font-weight: 600;}
+
+.everyday {
+    font-family: 'Cabin Sketch' cursive;
+    font-size: 5.5em;
+    margin-bottom: 2em;
+    margin-top: .3em;
+    color: white;
+}
+
+.em1 {width: 49%;}
+
+.em {width: 49%;}
+
+p {
+    font-family: 'Raleway';
+    font-size: 1em;
+    margin-left: 69px;
+    margin-right: 70px;
+    color: darkslategray;
+    text-align: left;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+h6 { font-family: 'Raleway';
+     font-size: 1.2em;
+    margin-left: 20px;
+    margin-right: 50px;
+    padding-left: 5em;
+    padding-right: 5em; 
+    padding-top: 9em;
+    padding-bottom: 1em;
+}
+
+span {
+    font-family: 'Raleway';
+    font-size: .8em;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 15em;
+    text-align: right;
+    }
+
+
+.fadeInUp {
+    animation-duration: 15s;
+    animation-delay: 1s;
+}
+
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+
+
+	
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+    p {
+        font-size: 0.9em;
+    }
+
+
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+}
+
+/*---------------MODAL------------------*/
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
