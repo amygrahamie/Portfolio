@@ -196,14 +196,15 @@ position: relative; }
 
 .contacttext {
     
-    width: 55%;
+    width: 70%;
     font-family: 'raleway';
     font-size: 1em;
     letter-spacing: 0.2em;
-    padding-top: 1.5em;
+    padding-top: 2em;
     padding-bottom: 3em;
+    padding-left: 6em;
     color: darkslategrey;
-text-align: left;}
+    text-align: left;}
 
 a { color: #88B891;}
 
