@@ -366,12 +366,6 @@ img.arrow, img.arrow:hover {
   padding-right: 0;
   padding-top: 0;
 }
-.contacttext {
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 100%;
-  line-height:2;
-}
 div.social {
   float: left;
   padding-left: 15px;
@@ -481,9 +475,7 @@ div.container > .container > img {
 .inspo > h2 {
   padding-bottom: 30px;
   padding-top: 15px;
-}
-
-    
+}  
 .background {
   display: none;
 }
@@ -570,13 +562,13 @@ h3.contacttext {
         padding-left: 4.5em;
         padding-right: 4.5em;
         margin-top: 1em;
-               padding-bottom: 1em;
+        padding-bottom: 1em;
     }
     
-        h2.pageheads {
-        font-size: 1.7em;
-        padding-top: 2.2em;
-        padding-bottom: 0em;
+h2.pageheads {
+font-size: 1.7em;
+padding-top: 2.5em;
+padding-bottom: 0em;
     }
     
     .amarque {
