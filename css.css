@@ -9,9 +9,9 @@ line-height: 1cm;
 /*-------------------*/
 
 .background {
-    background-image: url(images/FLORAL.png);
+    background-position: center;
     position: absolute;
-    background-size: 1270px 640px;
+    left: 0;
     background-repeat: no-repeat;
     z-index: -1;
     width: 100%;
@@ -169,13 +169,13 @@ position: relative; }
 
 .arrow {
     width: 3%;
-    position: absolute;
-    top: 630px;
-    right: 635px;}
+    position: relative;
+    padding-top: 17em;
+}
 
 .arrow:hover {
     opacity: 0.6;
-    position: absolute;
+    position: relative;
     width: 3%;}
 
 /*--------------------*/
