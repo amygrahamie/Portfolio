@@ -122,8 +122,15 @@ h2 {
     
     .contacttext {
         width: 100%;
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 4.5em;
+        padding-right: 4.5em;
+        margin-top: 1em;
+    }
+    
+        h3.contacttext {
+        width: 100%;
+        padding-left: 4.5em;
+        padding-right: 4.5em;
         margin-top: 1em;
     }
     
@@ -279,7 +286,17 @@ hr {
   overflow-y: hidden;
 }
 
-
+    
+.amarque {
+    position: relative;
+  align-content: center;
+  }  
+    
+h2.pageheads {
+    font-size: 1.7em;
+    padding-top: 2.2em;
+    padding-bottom: 0em;
+    }
 
 
 
@@ -322,7 +339,6 @@ section.list {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
   cursor:pointer;
 }
 nav {
@@ -528,27 +544,45 @@ padding-top:0em;
     .list {
   width: 20%;
   margin: auto;
-  padding: 10px;
-  padding-left: 20px;
+  padding-left: 25px;
   font-size: .8em;
 }
     
-    .list .h3 {
+.list .h3 {
         font-size: 1em;
     }
 
-    .getintouch {
+.getintouch {
     position: relative;
     width: 0%;
 }
 
-    
-        .contacttext {
+.contacttext {
         font-size: .9em;
         width: 100%;
         padding-left: 5em;
         padding-right: 5em;
         margin-top: 1em;
     }
+    
+h3.contacttext {
+        width: 100%;
+        padding-left: 4.5em;
+        padding-right: 4.5em;
+        margin-top: 1em;
+               padding-bottom: 1em;
+    }
+    
+        h2.pageheads {
+        font-size: 1.7em;
+        padding-top: 2.2em;
+        padding-bottom: 0em;
+    }
+    
+    .amarque {
+    position: absolute;
+  align-content: center;
+    top: 17px;
+    left: 227px;
 	
 } /* //max-width:767px */
