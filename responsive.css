@@ -299,8 +299,9 @@ h2.pageheads {
     }
 
 
-
-
+.inspo {
+  width: 20%;
+}
 
 
 
@@ -334,7 +335,7 @@ section.list {
 }
 .mob_button {
   float: right;
-  font-size: 28px;
+  font-size: 30px;
   margin-right: 15px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -471,7 +472,7 @@ div.container > .container > img {
   width: 20%;
 }
 .inspo {
-  width: 40%;
+  width: 35%;
 }
 .inspo > h2 {
   padding-bottom: 30px;

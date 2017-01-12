@@ -333,8 +333,10 @@ padding-bottom: 3em;}
     font-family: 'raleway';
     font-size: .9em;
     letter-spacing: 0.1em;
+    line-height: 1.5em;
     font-weight: bold;
     width: 100%;
+    padding-top: 1em;
 }
 
 .list {
@@ -347,14 +349,13 @@ padding-bottom: 3em;}
 .list2 {
     text-align: left;
     width: 55%;
-    padding-top: 1em;
     padding-bottom: 1em;
 }
 
 .list3 {
     text-align: left;
     width: 55%;
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 4em;
 }
 
