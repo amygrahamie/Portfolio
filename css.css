@@ -9,13 +9,14 @@ line-height: 1cm;
 /*-------------------*/
 
 .background {
-    background-attachment: inherit;
+    background-image: url(images/FLORAL.png);
+    position: absolute;
+    background-size: 1270px 640px;
     background-repeat: no-repeat;
+    z-index: -1;
     width: 100%;
-    height: inherit;
-    align-content: center;
-    position: relative;
-    
+    height: 39.5em;
+    align-content: center;    
 }
 
 
@@ -33,6 +34,7 @@ nav a {
     font-size: .8em;
     font-family: 'raleway';}
 
+.container {height:675px;}
 
 /*-------------------*/
 
@@ -123,10 +125,8 @@ p.space {color: white;
 .marque {
     padding-bottom: 1.5em;
     max-width: 10%;
-    position: absolute;
-    top: 140px;
-    right: 600px;
-
+    position: relative;
+    z-index: 1;
     }
 
 /*--------------------*/
@@ -134,16 +134,12 @@ p.space {color: white;
 div.hr {
 width: 25%;
 padding-bottom: .4em;
- position: absolute;
-top: 300px;
-right: 510px;}
+position: relative; }
 
 
 
 .nametop {
-  position: absolute;
-  top: 320px;
-  right: 500px;
+  position: relative;
   color: black;
   font-family: 'raleway';
   text-transform: uppercase;
@@ -205,7 +201,8 @@ right: 510px;}
     letter-spacing: 0.2em;
     padding-top: 1.5em;
     padding-bottom: 3em;
-    color: darkslategrey;}
+    color: darkslategrey;
+text-align: left;}
 
 a { color: #88B891;}
 
@@ -240,7 +237,7 @@ h2 {
   display: block;
   font-family: 'raleway';
   padding-top: 1em;
-    padding-bottom: .5em;
+  padding-bottom: .5em;
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.2em;
@@ -297,34 +294,53 @@ li {padding-left: .5em;}
 
 /*----------BACK TO TOP LINK-----------*/
 
-
 .backtotop {
     float: right;
     padding-right: 3em;
-    padding-top: 1em;
-    font-size: .8em;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Raleway';
-    letter-spacing: 0.2em;
-    position: relative;
-    text-decoration: underline;
 }
 
-.backtotop:hover {
-    opacity: 0.6;
+
+.button {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: none;
+    color: darkslategray;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    margin: 4px 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #313131;
+    color: white;
+    border-radius: 6px;
 }
 
 
 /*---------SOCIAL ICONS-----------*/
 
 .social {
-    padding-top: 1.5em;}
+    padding-top: 1.5em;
+    text-align: left;}
 
 .dribble {
     width: 3%;
     padding-right: .5em;
-    padding-left: 3em;
+    padding-left: 2.5em;
     opacity: 0.7;
 }
 
@@ -369,7 +385,9 @@ li {padding-left: .5em;}
     font-weight: 600;
     color: white;
     letter-spacing: 0.1em;
-    padding-left: 4em;
+    padding-left: 3.5em;
+    padding-bottom: 1em;
+    text-align: left;
 }
 
 
