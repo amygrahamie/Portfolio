@@ -442,6 +442,7 @@ ul.img-list li a > span > span, ul.img-list li > span > span {
   float: left;
   height: auto;
   width: 100%;
+    margin-top: 3em;
 }
 div.container > .container > img {
   clear: both;
@@ -449,7 +450,7 @@ div.container > .container > img {
   float: none;
   margin-left: auto;
   margin-right: auto;
-  width: 98%;
+  width: 100%;
 }
 .imgthree > img {
   display: block;
@@ -470,12 +471,16 @@ div.container > .container > img {
   width: 20%;
 }
 .inspo {
-  width: 70%;
+  width: 40%;
 }
 .inspo > h2 {
   padding-bottom: 30px;
   padding-top: 15px;
 }  
+    
+h1 { font-size: 1.5em;
+    }
+    
 .background {
   display: none;
 }
