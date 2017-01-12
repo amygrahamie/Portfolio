@@ -543,7 +543,7 @@ padding-top:0em;
   width: 20%;
   margin: auto;
   padding-left: 25px;
-  font-size: .8em;
+  font-size: 1em;
 }
     
 .list .h3 {
@@ -556,7 +556,7 @@ padding-top:0em;
 }
 
 .contacttext {
-        font-size: .9em;
+        font-size: 1em;
         width: 100%;
         padding-left: 5em;
         padding-right: 5em;
@@ -577,10 +577,42 @@ padding-top: 2.5em;
 padding-bottom: 0em;
     }
     
-    .amarque {
-    position: absolute;
-  align-content: center;
-    top: 17px;
-    left: 227px;
+.amarque {
+position: absolute;
+align-content: center;
+top: 17px;
+left: 227px;}
+    
+.button {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: none;
+    color: darkslategray;
+    font-family: 'Raleway';
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: px;
+}
+
+.button:hover {
+    background-color: #313131;
+    color: white;
+    border-radius: 6px;
+}
+        
+        
+    
 	
 } /* //max-width:767px */
