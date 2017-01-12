@@ -32,10 +32,11 @@ header > center {
   background-image: url("images/FLORAL.png");
   background-size: cover;
   float: left;
-  height: auto;
-  width: 100%;
+  height: 30em;
+  width: 99%;
   padding-top: 1.5em;
 }
+    
 .marque {
   clear: both;
   display: block;
@@ -65,17 +66,16 @@ div.hr {
   right: auto;
   top: auto;
   font-size: .8em;
-    padding-top: .5em;
+  padding-top: .5em;
 }
 .arrow {
   display: block;
-  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
   position: relative;
-  right: auto;
-  top: auto;
+padding-top: 4em;
+padding-bottom: 2.6em;
+
 }
 .arrow:hover {
     opacity: 0.6;
@@ -89,6 +89,8 @@ div.container2 {
 	width: 100%;
 	padding-bottom: 30px;
 }
+    
+    
 .parallax {
   float: left;
   height: auto;
@@ -102,22 +104,32 @@ div.container2 {
   float: left;
   height: auto;
   width: 100%;
+margin-bottom: 2.5em;
 }
 .list {
   width: 33%;
   margin: auto;
   padding: 10px;
-  padding-left: 20px;
+  padding-left: 30px;
   line-height: 5em;
+  font-size: 1em;
 }
     
-    .list .h3 {
-        font-size: 1em;
+h2 {
+        font-size: 1.2em;
+        padding-top: 1.5em;
+    }
+    
+    .contacttext {
+        width: 100%;
+        padding-left: 5em;
+        padding-right: 5em;
+        margin-top: 1em;
     }
     
 .getintouch {
     position: relative;
-    width: 4%;
+    width: 6%;
 }
     
 #top > center > section {
@@ -143,6 +155,8 @@ div.container2 {
 .socialicons {
     float: left;
     padding-top: 1em;
+    padding-left: 0;
+    margin-left: 1.4em;
     
     }
     
@@ -453,8 +467,83 @@ div.container > .container > img {
   padding-top: 15px;
 }
 
+    
+.background {
+  display: none;
+}
+header > center {
+  background-image: url("images/FLORAL.png");
+  background-size: cover;
+  float: left;
+  height: 15em;
+  width: 99%;
+  padding-top: 1.5em;
+}
+    
+.marque {
+  clear: both;
+  display: block;
+  float: none;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 90px;
+  right: auto;
+  top: auto;
+}
+div.hr {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: auto;
+  top: auto;
+    padding-bottom: .5em;
+}
+.nametop {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  right: auto;
+  top: auto;
+  font-size: .8em;
+  padding-top: .5em;
+}
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+padding-top:0em;
 
+}
+.arrow:hover {
+    opacity: 0.6;
+    position: relative;
+    width: 2%;
+}
 
+    .list {
+  width: 33%;
+  margin: auto;
+  padding: 10px;
+  padding-left: 20px;
+  font-size: .8em;
+}
+    
+    .list .h3 {
+        font-size: 1em;
+    }
 
+    .getintouch {
+    position: relative;
+    width: 0%;
+}
+
+    h4 {
+        padding-top: ;
+    }
 	
 } /* //max-width:767px */
