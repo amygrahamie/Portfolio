@@ -13,11 +13,11 @@ line-height: 1cm;
 .background {
     background-position: center;
     position: absolute;
-    left:0;
+    left: 0;
     background-repeat: no-repeat;
     z-index: -1;
     width: 100%;
-    height: 50em;
+    height: auto;
     align-content: center;
 }
 
@@ -206,7 +206,8 @@ position: relative; }
     padding-top: 2em;
     padding-bottom: 4em;
     color: darkslategrey;
-    text-align: left;}
+    text-align: left;
+    align-content: center;}
 
 a { color: #88B891;}
 
