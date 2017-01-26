@@ -200,7 +200,7 @@ position: relative; }
     
     width: 70%;
     font-family: 'raleway';
-    font-size: 1.3em;
+    font-size: 1em;
     letter-spacing: 0.2em;
     padding-top: 2em;
     padding-bottom: 4em;
@@ -227,8 +227,8 @@ a:hover {color: #2E3547;}
     background-position: center;
     background-attachment: fixed;
     opacity: 0.9;
-    margin-top: .5em;
-margin-bottom: 1em;}
+    margin-top: 3em;
+margin-bottom: 2em;}
 
 
 .parallax-inner {
