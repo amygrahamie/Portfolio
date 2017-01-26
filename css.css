@@ -12,11 +12,10 @@ line-height: 1cm;
 
 .background {
     background-position: center;
-    position: absolute;
-    left: 0;
+    position: relative;
     background-repeat: no-repeat;
     z-index: -1;
-    width: 100%;
+    width: 95%;
     height: auto;
     align-content: center;
 }
@@ -108,7 +107,7 @@ div.container {
     width: 100%;
     opacity: 1;
     padding-top: .8em;
-    height: 60em;
+    height: 48em;
     }
 
 div.container2 {
@@ -206,8 +205,7 @@ position: relative; }
     padding-top: 2em;
     padding-bottom: 4em;
     color: darkslategrey;
-    text-align: left;
-    align-content: center;}
+    text-align: left;}
 
 a { color: #88B891;}
 
@@ -261,7 +259,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 1.4em;
-    font-weight: 700;
+  font-weight: 700;
 }
 
 
