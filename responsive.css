@@ -31,9 +31,9 @@ article#top {
 header > center {
   background-image: url("images/FLORAL.png");
   background-size: cover;
-  float: left;
-  height: 30em;
-  width: 99%;
+    float: left;
+    width: 50%;
+height: auto;
   padding-top: 1.5em;
 }
     
@@ -45,11 +45,12 @@ header > center {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 80px;
+  width: 95px;
   right: auto;
   top: auto;
 }
 div.hr {
+    width: 0%;
   float: none;
   margin-left: auto;
   margin-right: auto;
@@ -65,23 +66,30 @@ div.hr {
   position: relative;
   right: auto;
   top: auto;
-  font-size: .8em;
+  font-size: 1em;
   padding-top: .5em;
 }
+    
 .arrow {
+opacity: 0;
+    width: 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
 padding-top: 4em;
 padding-bottom: 2.6em;
+}
 
+div.container {
+	float: left;
+	height: auto;
+	position: relative;
+	width: 100%;
 }
-.arrow:hover {
-    opacity: 0.6;
-    position: relative;
-    width: 2%;
-}
+   
+    
+    
 div.container2 {
 	float: left;
 	height: auto;
@@ -95,6 +103,8 @@ div.container2 {
   float: left;
   height: auto;
   width: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 .parallax-inner {
   padding-bottom: 150px;
@@ -104,35 +114,35 @@ div.container2 {
   float: left;
   height: auto;
   width: 100%;
-margin-bottom: 2.5em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+
 }
+    
 .list {
   width: 33%;
   margin: auto;
   padding: 10px;
-  padding-left: 30px;
+  padding-left: 31px;
   line-height: 5em;
-  font-size: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
     
 h2 {
-        font-size: 1.2em;
-        padding-top: 1.5em;
+    font-size: 1.2em;
+    padding-top: 1.8em;}
+    
+    h3 {
+    font-size: 1.2em;
+        padding-left: .5em;
+        
     }
     
-    .contacttext {
-        width: 100%;
-        padding-left: 4.5em;
-        padding-right: 4.5em;
-        margin-top: 1em;
-    }
-    
-        h3.contacttext {
-        width: 100%;
-        padding-left: 4.5em;
-        padding-right: 4.5em;
-        margin-top: 1em;
-    }
+.contacttext {
+    width: 100%;
+    padding-left: 4.5em;
+    padding-right: 4.5em;}
     
 .getintouch {
     position: relative;
@@ -144,10 +154,11 @@ h2 {
   height: auto;
   width: 100%;
 }
+
 .social {
-  padding-top: 0;
-  margin: 0;
-    }
+padding-top: 0;
+padding-left: 1em;
+margin: 0;}
     
 .social img {
   height: 35px;
@@ -195,9 +206,8 @@ h2 {
   width:100%;
   padding-left:0;
 }
-div.container2 {
-  padding-top: 30px;
-}
+
+    
 div.container > .container {
   float: left;
   height: auto;
@@ -302,7 +312,8 @@ h2.pageheads {
 .inspo {
   width: 20%;
 }
-
+.backtotop {
+        display: none;}
 
 
 
@@ -340,10 +351,12 @@ section.list {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
+    padding-top: .5em;
   cursor:pointer;
 }
 nav {
   display: none;
+    padding-top: .2em;
   float: left;
   height: auto;
   width: 100%;
@@ -367,18 +380,20 @@ img.arrow, img.arrow:hover {
   padding-right: 0;
   padding-top: 0;
 }
+
 div.social {
-  float: left;
+ align-content: center;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
   width: 100%;
 }
+
 .backtotop {
-  letter-spacing: normal;
-  padding-right: 0;
-}
-span.socialicons {
+        display: none;}
+    
+    
+.socialicons {
   display: block;
   float: left;
   height: auto;
@@ -388,9 +403,21 @@ span.socialicons {
   width: 100%;
   margin-top:auto;
 }
+    
+.social img {
+  height: 40px;
+  width: 40px;
+  margin-bottom:5px;
+  align-content: center;
+} 
+    
+.dribble {
+    margin-left: 13em;}
+
 .amarque {
   width: 50px;
 }
+    
 ul.img-list li {
   display: block;
   float: left;
@@ -413,6 +440,7 @@ ul.img-list {
 #photos {
   -moz-column-count: 1;
   column-count:1;
+    padding-bottom: 3em;
 }
 span.alphabet {
   display: table-cell;
@@ -443,7 +471,7 @@ ul.img-list li a > span > span, ul.img-list li > span > span {
   float: left;
   height: auto;
   width: 100%;
-    margin-top: 3em;
+  margin-top: 3em;
 }
 div.container > .container > img {
   clear: both;
@@ -485,14 +513,6 @@ h1 { font-size: 1.5em;
 .background {
   display: none;
 }
-header > center {
-  background-image: url("images/FLORAL.png");
-  background-size: cover;
-  float: left;
-  height: 15em;
-  width: 99%;
-  padding-top: 1.5em;
-}
     
 .marque {
   clear: both;
@@ -506,15 +526,7 @@ header > center {
   right: auto;
   top: auto;
 }
-div.hr {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  right: auto;
-  top: auto;
-    padding-bottom: .5em;
-}
+
 .nametop {
   clear: both;
   margin-left: auto;
@@ -539,15 +551,29 @@ padding-top:0em;
     width: 2%;
 }
 
-    .list {
-  width: 20%;
-  margin: auto;
-  padding-left: 25px;
+.list {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 50px;
   font-size: 1em;
 }
     
-.list .h3 {
-        font-size: 1em;
+.parallax2 {
+  float: left;
+  height: auto;
+  width: 100%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+    margin-top: 1em;
+
+}    
+    
+h3 {
+    font-size: 1.3em;
+    width: 90%;
+    text-align: left;
+    float: left;
+    padding-top: 3em;
     }
 
 .getintouch {
@@ -556,11 +582,12 @@ padding-top:0em;
 }
 
 .contacttext {
-        font-size: 1em;
+        font-size: 1.2em;
         width: 100%;
-        padding-left: 5em;
-        padding-right: 5em;
+        padding-left: 4em;
+        padding-right: 4em;
         margin-top: 1em;
+        margin-bottom: 1em;
     }
     
 h3.contacttext {
@@ -572,16 +599,17 @@ h3.contacttext {
     }
     
 h2.pageheads {
-font-size: 1.7em;
-padding-top: 2.5em;
-padding-bottom: 0em;
-    }
+        font-size: 1.7em;
+        padding-top: 4em;
+        width: 100%;
+}
+
     
 .amarque {
-position: absolute;
-align-content: center;
-top: 17px;
-left: 227px;}
+        position: absolute;
+    left: 17.1em;
+        align-content: center;
+}
     
 .button {
     position: relative;
@@ -612,7 +640,14 @@ left: 227px;}
     border-radius: 6px;
 }
         
-        
+  /*-------THIRST------*/
+    
+    h3.thirstheading {
+        text-align: center;
+        font-size: 2em;
+        width: 100%;
+        padding-top: 0;
+    }
     
 	
 } /* //max-width:767px */

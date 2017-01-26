@@ -116,26 +116,48 @@ div.container {
 #darkgrey {
     background-color: #313131;
     padding-bottom: .7em;
-    }
+    padding-top: .5em;}
 
 /*----------BACK TO TOP LINK-----------*/
 
 
+/*----------BACK TO TOP LINK-----------*/
+
 .backtotop {
     float: right;
     padding-right: 3em;
-    padding-top: 1em;
-    font-size: .8em;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Raleway';
-    letter-spacing: 0.2em;
-    position: relative;
-    text-decoration: underline;
+    padding-top: .5em;
 }
 
-.backtotop:hover {
-    opacity: 0.6;
+
+.button {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    border: none;
+    color: darkslategray;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+    margin: 4px 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: #313131;
+    color: white;
+    border-radius: 6px;
 }
 
 h2 {font-family: 'Raleway';
@@ -149,27 +171,29 @@ letter-spacing: 0.3em;}
 /*---------SOCIAL ICONS-----------*/
 
 .social {
-    padding-top: 1.5em;}
+    padding-top: 1.5em;
+    text-align: left;}
 
 .dribble {
     width: 3%;
     padding-right: .5em;
-    padding-left: 3em;
-    opacity: 0.7em;}
+    padding-left: 2.5em;
+    opacity: 0.7;
+}
 
 .insta {
     width: 3%;
-    opacity: 0.7em;}
+    opacity: 0.7;}
 
 .twitter {
     width: 3%;
     padding-left: .5em;
-    opacity: 0.7em;}
+    opacity: 0.7;}
 
 .mail {
     width: 3%;
     padding-left: .5em;
-    opacity: 0.7em;}
+    opacity: 0.7;}
 
 /*-------------HOVER----------------*/
 
